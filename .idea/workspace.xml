@@ -14,8 +14,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="200" column="63" lean-forward="true" selection-start-line="200" selection-start-column="63" selection-end-line="200" selection-end-column="63" />
+            <state relative-caret-position="371">
+              <caret line="165" column="32" lean-forward="true" selection-start-line="165" selection-start-column="32" selection-end-line="165" selection-end-column="32" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -149,8 +149,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="200" column="63" lean-forward="true" selection-start-line="200" selection-start-column="63" selection-end-line="200" selection-end-column="63" />
+        <state relative-caret-position="371">
+          <caret line="165" column="32" lean-forward="true" selection-start-line="165" selection-start-column="32" selection-end-line="165" selection-end-column="32" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>

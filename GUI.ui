@@ -390,7 +390,7 @@
     </size>
    </property>
   </widget>
-  <widget class="QPushButton" name="button_brace">
+  <widget class="QPushButton" name="button_braceRight">
    <property name="geometry">
     <rect>
      <x>140</x>
@@ -415,7 +415,7 @@
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>colors/braces.png</normaloff>colors/braces.png</iconset>
+     <normaloff>colors/braceright.png</normaloff>colors/braceright.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -737,7 +737,7 @@
    <property name="geometry">
     <rect>
      <x>50</x>
-     <y>610</y>
+     <y>520</y>
      <width>81</width>
      <height>81</height>
     </rect>
@@ -808,7 +808,7 @@
    <property name="geometry">
     <rect>
      <x>50</x>
-     <y>520</y>
+     <y>430</y>
      <width>81</width>
      <height>81</height>
     </rect>
@@ -890,6 +890,9 @@
      <pointsize>20</pointsize>
     </font>
    </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
    <property name="html">
     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -904,7 +907,7 @@ p, li { white-space: pre-wrap; }
      <x>50</x>
      <y>199</y>
      <width>441</width>
-     <height>31</height>
+     <height>41</height>
     </rect>
    </property>
    <property name="font">
@@ -918,6 +921,43 @@ p, li { white-space: pre-wrap; }
    </property>
    <property name="alignment">
     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_braceLeft">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>610</y>
+     <width>81</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>나눔고딕</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/braceleft.png</normaloff>colors/braceleft.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>75</width>
+     <height>75</height>
+    </size>
    </property>
   </widget>
  </widget>
@@ -1228,10 +1268,10 @@ p, li { white-space: pre-wrap; }
    </hints>
   </connection>
   <connection>
-   <sender>button_brace</sender>
+   <sender>button_braceRight</sender>
    <signal>released()</signal>
    <receiver>Dialog</receiver>
-   <slot>btnbrace()</slot>
+   <slot>btnbracer()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>177</x>
@@ -1251,7 +1291,7 @@ p, li { white-space: pre-wrap; }
    <hints>
     <hint type="sourcelabel">
      <x>101</x>
-     <y>616</y>
+     <y>526</y>
     </hint>
     <hint type="destinationlabel">
      <x>94</x>
@@ -1267,11 +1307,27 @@ p, li { white-space: pre-wrap; }
    <hints>
     <hint type="sourcelabel">
      <x>92</x>
-     <y>531</y>
+     <y>441</y>
     </hint>
     <hint type="destinationlabel">
      <x>90</x>
      <y>515</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_braceLeft</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnbracel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>104</x>
+     <y>617</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>109</x>
+     <y>607</y>
     </hint>
    </hints>
   </connection>
@@ -1288,7 +1344,7 @@ p, li { white-space: pre-wrap; }
   <slot>btn8()</slot>
   <slot>btn9()</slot>
   <slot>btndot()</slot>
-  <slot>btnbrace()</slot>
+  <slot>btnbracer()</slot>
   <slot>btnclr()</slot>
   <slot>btnback()</slot>
   <slot>btnequal()</slot>
@@ -1299,5 +1355,6 @@ p, li { white-space: pre-wrap; }
   <slot>btnper()</slot>
   <slot>btnsqr()</slot>
   <slot>btnroot()</slot>
+  <slot>btnbracel()</slot>
  </slots>
 </ui>

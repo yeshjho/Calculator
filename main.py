@@ -40,8 +40,10 @@ class MainWindow(QtWidgets.QDialog):
             self.btn9()
         elif e.key() == QtCore.Qt.Key_Period:
             self.btndot()
-        elif e.key() == QtCore.Qt.Key_ParenLeft or e.key() == QtCore.Qt.Key_ParenRight:
-            self.btnbrace()
+        elif e.key() == QtCore.Qt.Key_ParenLeft:
+            self.btnbracel()
+        elif e.key() == QtCore.Qt.Key_ParenRight:
+            self.btnbracer()
         elif e.key() == QtCore.Qt.Key_Plus:
             self.btnpls()
         elif e.key() == QtCore.Qt.Key_Minus:
@@ -124,7 +126,14 @@ class MainWindow(QtWidgets.QDialog):
         self.formula_show.append(".")
         self.textUpdate()
 
-    def btnbrace(self):
+    def btnbracel(self):
+        self.formula.append("(")
+        self.formula_show.append(" (")
+        self.textUpdate()
+
+    def btnbracer(self):
+        self.formula.append(")")
+        self.formula_show.append(") ")
         self.textUpdate()
 
     def btnpls(self):
@@ -153,11 +162,15 @@ class MainWindow(QtWidgets.QDialog):
         self.textUpdate()
 
     def btnroot(self):
-        self.formula.append(" sqrt(")
+        self.formula.append(" sqrt")
+        self.formula.append("(")
         self.formula_show.append(" √")
+        self.formula_show.append("(")
         self.textUpdate()
 
     def btnper(self):
+        self.formula.append("/100")
+        self.formula_show.append("%")
         self.textUpdate()
 
     def btnclr(self):
