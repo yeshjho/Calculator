@@ -2,6 +2,8 @@ from PyQt5 import QtCore, QtGui, uic, QtWidgets
 import sys
 from math import sqrt
 
+CIPHER = ['', '만', '억', '조', '경', '해', '자', '양', '구', '간', '정', '재', '극']
+
 
 # 메인 윈도우 창
 class MainWindow(QtWidgets.QDialog):
@@ -14,6 +16,7 @@ class MainWindow(QtWidgets.QDialog):
         self.formula_show = []
         self.result = 0
 
+    # 키보드 입력
     def keyPressEvent(self, e):
         if e.key() == QtCore.Qt.Key_0:
             self.btn0()
@@ -161,6 +164,7 @@ class MainWindow(QtWidgets.QDialog):
         self.formula.clear()
         self.formula_show.clear()
         self.textUpdate()
+        self.koreanText.setText("")
 
     def btnback(self):
         self.formula.pop()
@@ -185,7 +189,19 @@ class MainWindow(QtWidgets.QDialog):
 
             # 자연수라면 한글로 표시
             if self.result % 1 == 0:
-                pass
+                text = ""
+                remainder = self.result % 10000
+                num = 0
+                while self.result > 0:
+                    text = " " + str(remainder) + CIPHER[num] + text
+                    self.result //= 10000
+                    remainder = self.result % 10000
+                    num += 1
+
+                self.koreanText.setText(text.replace(".0", ""))
+
+        except IndexError:
+            pass
 
         except:
             self.koreanText.setText("올바른 수식을 입력해 주세요")
