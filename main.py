@@ -14,6 +14,50 @@ class MainWindow(QtWidgets.QDialog):
         self.formula_show = []
         self.result = 0
 
+    def keyPressEvent(self, e):
+        if e.key() == QtCore.Qt.Key_0:
+            self.btn0()
+        elif e.key() == QtCore.Qt.Key_1:
+            self.btn1()
+        elif e.key() == QtCore.Qt.Key_2:
+            self.btn2()
+        elif e.key() == QtCore.Qt.Key_3:
+            self.btn3()
+        elif e.key() == QtCore.Qt.Key_4:
+            self.btn4()
+        elif e.key() == QtCore.Qt.Key_5:
+            self.btn5()
+        elif e.key() == QtCore.Qt.Key_6:
+            self.btn6()
+        elif e.key() == QtCore.Qt.Key_7:
+            self.btn7()
+        elif e.key() == QtCore.Qt.Key_8:
+            self.btn8()
+        elif e.key() == QtCore.Qt.Key_9:
+            self.btn9()
+        elif e.key() == QtCore.Qt.Key_Period:
+            self.btndot()
+        elif e.key() == QtCore.Qt.Key_ParenLeft or e.key() == QtCore.Qt.Key_ParenRight:
+            self.btnbrace()
+        elif e.key() == QtCore.Qt.Key_Plus:
+            self.btnpls()
+        elif e.key() == QtCore.Qt.Key_Minus:
+            self.btnmin()
+        elif e.key() == QtCore.Qt.Key_Asterisk:
+            self.btnmul()
+        elif e.key() == QtCore.Qt.Key_Slash:
+            self.btndiv()
+        elif e.key() == QtCore.Qt.Key_AsciiCircum:
+            self.btnsqr()
+        elif e.key() == QtCore.Qt.Key_Percent:
+            self.btnper()
+        elif e.key() == QtCore.Qt.Key_C:
+            self.btnclr()
+        elif e.key() == QtCore.Qt.Key_Backspace:
+            self.btnback()
+        elif e.key() == QtCore.Qt.Key_Enter or e.key() == QtCore.Qt.Key_Return or e.key() == QtCore.Qt.Key_Equal:
+            self.btnequal()
+
     def textUpdate(self):
         formula_show = ""
         for i in self.formula_show:
@@ -130,13 +174,19 @@ class MainWindow(QtWidgets.QDialog):
                 formula += j
 
         try:
-            self.result = str(eval(formula))
+            # 계산해서 출력
+            self.result = eval(formula)
             self.formula.clear()
             self.formula_show.clear()
-            self.formula.append(self.result)
-            self.formula_show.append(self.result)
-            self.mainText.setText(self.result)
+            self.formula.append(str(self.result))
+            self.formula_show.append(str(self.result))
+            self.mainText.setText(str(self.result))
             self.koreanText.setText("")
+
+            # 자연수라면 한글로 표시
+            if self.result % 1 == 0:
+                pass
+
         except:
             self.koreanText.setText("올바른 수식을 입력해 주세요")
 
