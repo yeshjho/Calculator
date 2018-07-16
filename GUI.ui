@@ -39,8 +39,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -70,8 +70,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -101,8 +101,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -132,8 +132,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -163,8 +163,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -194,8 +194,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -225,8 +225,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -256,8 +256,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -287,8 +287,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -318,8 +318,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -349,8 +349,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -380,8 +380,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -411,8 +411,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -442,8 +442,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -473,8 +473,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -504,8 +504,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -535,8 +535,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -566,8 +566,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -597,8 +597,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -665,8 +665,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -733,8 +733,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -801,8 +801,8 @@
    </property>
    <property name="iconSize">
     <size>
-     <width>81</width>
-     <height>81</height>
+     <width>75</width>
+     <height>75</height>
     </size>
    </property>
   </widget>
@@ -834,5 +834,382 @@
   </widget>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>button_0</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btn0()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>288</x>
+     <y>683</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>287</x>
+     <y>705</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_1</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btn1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>186</x>
+     <y>541</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>185</x>
+     <y>518</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_2</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btn2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>277</x>
+     <y>529</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>274</x>
+     <y>516</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_3</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btn3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>359</x>
+     <y>527</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>517</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_4</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btn4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>180</x>
+     <y>436</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>178</x>
+     <y>428</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_5</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btn5()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>273</x>
+     <y>445</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>271</x>
+     <y>429</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_6</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btn6()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>368</x>
+     <y>437</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>359</x>
+     <y>425</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_7</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btn7()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>179</x>
+     <y>348</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>180</x>
+     <y>337</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_8</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btn8()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>267</x>
+     <y>346</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>266</x>
+     <y>337</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_9</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btn9()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>355</x>
+     <y>344</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>356</x>
+     <y>335</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_per</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnper()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>179</x>
+     <y>262</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>178</x>
+     <y>247</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_root</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnroot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>265</x>
+     <y>265</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>263</x>
+     <y>248</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_sqr</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnsqr()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>359</x>
+     <y>266</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>358</x>
+     <y>247</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_div</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btndiv()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>453</x>
+     <y>259</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>451</x>
+     <y>249</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_mul</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnmul()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>448</x>
+     <y>352</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>448</x>
+     <y>337</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_min</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnmin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>443</x>
+     <y>449</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>445</x>
+     <y>427</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_pls</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnpls()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>448</x>
+     <y>532</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>445</x>
+     <y>518</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_equal</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnequal()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>449</x>
+     <y>626</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>445</x>
+     <y>608</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_dot</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btndot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>361</x>
+     <y>617</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>356</x>
+     <y>607</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_brace</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnbrace()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>177</x>
+     <y>613</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>177</x>
+     <y>605</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_clr</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnclr()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>101</x>
+     <y>616</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>94</x>
+     <y>607</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_back</sender>
+   <signal>released()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnback()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>92</x>
+     <y>531</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>90</x>
+     <y>515</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>btn0()</slot>
+  <slot>btn1()</slot>
+  <slot>btn2()</slot>
+  <slot>btn3()</slot>
+  <slot>btn4()</slot>
+  <slot>btn5()</slot>
+  <slot>btn6()</slot>
+  <slot>btn7()</slot>
+  <slot>btn8()</slot>
+  <slot>btn9()</slot>
+  <slot>btndot()</slot>
+  <slot>btnbrace()</slot>
+  <slot>btnclr()</slot>
+  <slot>btnback()</slot>
+  <slot>btnequal()</slot>
+  <slot>btnpls()</slot>
+  <slot>btnmin()</slot>
+  <slot>btnmul()</slot>
+  <slot>btndiv()</slot>
+  <slot>btnper()</slot>
+  <slot>btnsqr()</slot>
+  <slot>btnroot()</slot>
+ </slots>
 </ui>
