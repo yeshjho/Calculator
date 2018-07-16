@@ -31,7 +31,17 @@
     </font>
    </property>
    <property name="text">
-    <string>1</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/1.png</normaloff>colors/1.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="button_2">
@@ -52,7 +62,17 @@
     </font>
    </property>
    <property name="text">
-    <string>2</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/2.png</normaloff>colors/2.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="button_3">
@@ -73,7 +93,17 @@
     </font>
    </property>
    <property name="text">
-    <string>3</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/3.png</normaloff>colors/3.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="button_4">
@@ -94,7 +124,17 @@
     </font>
    </property>
    <property name="text">
-    <string>4</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/4.png</normaloff>colors/4.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="button_5">
@@ -115,7 +155,17 @@
     </font>
    </property>
    <property name="text">
-    <string>5</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/5.png</normaloff>colors/5.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="button_6">
@@ -136,7 +186,17 @@
     </font>
    </property>
    <property name="text">
-    <string>6</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/6.png</normaloff>colors/6.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="button_7">
@@ -157,7 +217,17 @@
     </font>
    </property>
    <property name="text">
-    <string>7</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/7.png</normaloff>colors/7.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="button_8">
@@ -178,7 +248,17 @@
     </font>
    </property>
    <property name="text">
-    <string>8</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/8.png</normaloff>colors/8.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="button_9">
@@ -199,7 +279,17 @@
     </font>
    </property>
    <property name="text">
-    <string>9</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/9.png</normaloff>colors/9.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="button_0">
@@ -220,7 +310,17 @@
     </font>
    </property>
    <property name="text">
-    <string>0</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/0.png</normaloff>colors/0.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="button_dot">
@@ -241,7 +341,17 @@
     </font>
    </property>
    <property name="text">
-    <string>.</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/dot.png</normaloff>colors/dot.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="button_brace">
@@ -262,7 +372,17 @@
     </font>
    </property>
    <property name="text">
-    <string>( )</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/braces.png</normaloff>colors/braces.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="button_per">
@@ -283,7 +403,17 @@
     </font>
    </property>
    <property name="text">
-    <string>%</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/percentage.png</normaloff>colors/percentage.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="button_root">
@@ -304,7 +434,17 @@
     </font>
    </property>
    <property name="text">
-    <string>√</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/root.png</normaloff>colors/root.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="button_sqr">
@@ -325,7 +465,17 @@
     </font>
    </property>
    <property name="text">
-    <string>^</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/square.png</normaloff>colors/square.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="button_div">
@@ -346,10 +496,20 @@
     </font>
    </property>
    <property name="text">
-    <string>÷</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/divide.png</normaloff>colors/divide.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
-  <widget class="QPushButton" name="button_add">
+  <widget class="QPushButton" name="button_pls">
    <property name="geometry">
     <rect>
      <x>410</x>
@@ -367,10 +527,20 @@
     </font>
    </property>
    <property name="text">
-    <string>+</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/plus.png</normaloff>colors/plus.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
-  <widget class="QPushButton" name="button_sub">
+  <widget class="QPushButton" name="button_min">
    <property name="geometry">
     <rect>
      <x>410</x>
@@ -388,7 +558,17 @@
     </font>
    </property>
    <property name="text">
-    <string>-</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/minus.png</normaloff>colors/minus.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="button_mul">
@@ -409,7 +589,17 @@
     </font>
    </property>
    <property name="text">
-    <string>×</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/multiply.png</normaloff>colors/multiply.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="button_equal">
@@ -467,7 +657,17 @@
     </font>
    </property>
    <property name="text">
-    <string>=</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/equal.png</normaloff>colors/equal.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="button_clr">
@@ -525,7 +725,17 @@
     </font>
    </property>
    <property name="text">
-    <string>C</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/clear.png</normaloff>colors/clear.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QPushButton" name="button_back">
@@ -583,7 +793,17 @@
     </font>
    </property>
    <property name="text">
-    <string>⌫</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>colors/backspace.png</normaloff>colors/backspace.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>81</width>
+     <height>81</height>
+    </size>
    </property>
   </widget>
   <widget class="QTextBrowser" name="mainText">
