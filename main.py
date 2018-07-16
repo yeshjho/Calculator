@@ -162,6 +162,12 @@ class MainWindow(QtWidgets.QDialog):
         self.textUpdate()
 
     def btnroot(self):
+        # 앞에 숫자가 있으면 자동으로 곱하기 추가
+        try:
+            if self.formula_show[-1][-1] in "0123456789":
+                self.btnmul()
+        except IndexError:
+            pass
         self.formula.append(" sqrt")
         self.formula.append("(")
         self.formula_show.append(" √")
@@ -185,6 +191,18 @@ class MainWindow(QtWidgets.QDialog):
         self.textUpdate()
 
     def btnequal(self):
+        # 괄호 자동으로 닫는 기능
+        opened = 0
+        closed = 0
+        for i in map(lambda x: x.strip(), self.formula):
+            if i == "(":
+                opened += 1
+            elif i == ")":
+                closed += 1
+        while opened > closed:
+            self.formula.append(")")
+            closed += 1
+
         formula = ""
         for i in self.formula:
             for j in i:
