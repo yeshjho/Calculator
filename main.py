@@ -1,5 +1,6 @@
 from PyQt5 import QtCore, QtGui, uic, QtWidgets
 import sys
+from math import sqrt
 
 
 # 메인 윈도우 창
@@ -9,71 +10,135 @@ class MainWindow(QtWidgets.QDialog):
         self.ui = uic.loadUi("GUI.ui", self)
         self.ui.show()
 
+        self.formula = []
+        self.formula_show = []
+        self.result = 0
+
+    def textUpdate(self):
+        formula_show = ""
+        for i in self.formula_show:
+            for j in i:
+                formula_show += j
+
+        self.mainText.setText(formula_show)
+
     def btn0(self):
-        pass
+        self.formula.append("0")
+        self.formula_show.append("0")
+        self.textUpdate()
 
     def btn1(self):
-        pass
+        self.formula.append("1")
+        self.formula_show.append("1")
+        self.textUpdate()
 
     def btn2(self):
-        pass
+        self.formula.append("2")
+        self.formula_show.append("2")
+        self.textUpdate()
 
     def btn3(self):
-        pass
+        self.formula.append("3")
+        self.formula_show.append("3")
+        self.textUpdate()
 
     def btn4(self):
-        pass
+        self.formula.append("4")
+        self.formula_show.append("4")
+        self.textUpdate()
 
     def btn5(self):
-        pass
+        self.formula.append("5")
+        self.formula_show.append("5")
+        self.textUpdate()
 
     def btn6(self):
-        pass
+        self.formula.append("6")
+        self.formula_show.append("6")
+        self.textUpdate()
 
     def btn7(self):
-        pass
+        self.formula.append("7")
+        self.formula_show.append("7")
+        self.textUpdate()
 
     def btn8(self):
-        pass
+        self.formula.append("8")
+        self.formula_show.append("8")
+        self.textUpdate()
 
     def btn9(self):
-        pass
+        self.formula.append("9")
+        self.formula_show.append("9")
+        self.textUpdate()
 
     def btndot(self):
-        pass
+        self.formula.append(".")
+        self.formula_show.append(".")
+        self.textUpdate()
 
     def btnbrace(self):
-        pass
+        self.textUpdate()
 
     def btnpls(self):
-        pass
+        self.formula.append("+")
+        self.formula_show.append(" + ")
+        self.textUpdate()
 
     def btnmin(self):
-        pass
+        self.formula.append("-")
+        self.formula_show.append(" - ")
+        self.textUpdate()
 
     def btnmul(self):
-        pass
+        self.formula.append("*")
+        self.formula_show.append(" × ")
+        self.textUpdate()
 
     def btndiv(self):
-        pass
+        self.formula.append("/")
+        self.formula_show.append(" ÷ ")
+        self.textUpdate()
 
     def btnsqr(self):
-        pass
+        self.formula.append("**")
+        self.formula_show.append(" ^ ")
+        self.textUpdate()
 
     def btnroot(self):
-        pass
+        self.formula.append(" sqrt(")
+        self.formula_show.append(" √")
+        self.textUpdate()
 
     def btnper(self):
-        pass
+        self.textUpdate()
 
     def btnclr(self):
-        pass
+        self.formula.clear()
+        self.formula_show.clear()
+        self.textUpdate()
 
     def btnback(self):
-        pass
+        self.formula.pop()
+        self.formula_show.pop()
+        self.textUpdate()
 
     def btnequal(self):
-        pass
+        formula = ""
+        for i in self.formula:
+            for j in i:
+                formula += j
+
+        try:
+            self.result = str(eval(formula))
+            self.formula.clear()
+            self.formula_show.clear()
+            self.formula.append(self.result)
+            self.formula_show.append(self.result)
+            self.mainText.setText(self.result)
+            self.koreanText.setText("")
+        except:
+            self.koreanText.setText("올바른 수식을 입력해 주세요")
 
 
 # 앱 실행
